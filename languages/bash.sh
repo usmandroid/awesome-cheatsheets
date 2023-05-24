@@ -170,6 +170,7 @@ info <command>           # shows another documentation system for the specific c
 help                     # shows documentation about built-in commands and functions
 df                       # shows disk usage
 du <filename>            # shows the disk usage of the files and directories in filename (du -s give only a total)
+du -sch ./* | sort -rh   # shows the summary of each item in current dir . and total size
 resize2fs                # ext2/ext3/ext4 file system resizer
 last <yourUsername>      # lists your last logins
 ps -u yourusername       # lists your processes
